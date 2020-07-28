@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: top center;
+    font-family: 'Lucida Sans', sans-serif;    
+}
+.wrap{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+}
+h1 {
+    padding: 30px 15px ; color: white; text-shadow: 2px 6px rgba(0, 0, 0, 0.6);
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 5em;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conversion {
+    font-family:   sans-serif; color: white; text-shadow: 2px 4px rgba(0, 0, 0, 0.6);
+    padding-bottom: 1em;
+    font-size: 4em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+input{
+    margin-left: 17em;
+    justify-content: center;
+    align-items: center;
+    border-radius: .3em;
+    width: 100%;
+    max-width: 300px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    background-color: thistle;
+    border: none;
+    font-size: 1.5em;
+}
+select{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 1em;
+    background-color: wheat;
+    width: 100%;
+    max-width: 5em;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: .3em;
+    font-size: 1.5em;
+}
+.equals {
+    justify-content: center; text-shadow: 2px 4px rgba(0, 0, 0, 0.6); color: white;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 4rem;
+  }
